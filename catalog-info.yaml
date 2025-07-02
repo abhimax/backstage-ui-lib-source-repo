@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-ui-lib-source-repo
+  description: Sample UI library to be accessed from Backstage
+  annotations:
+    github.com/project-slug: your-org/backstage-ui-lib-source-repo
+spec:
+  type: library
+  owner: your-team
+  lifecycle: experimental 
