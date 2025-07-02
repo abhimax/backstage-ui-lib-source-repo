@@ -4,4 +4,34 @@ docs_dir: docs
 nav:
   - Home: README.md
   - Getting Started: getting-started.md
-  - Usage: usage.md 
+  - Usage: usage.md
+
+plugins:
+  - techdocs-core
+  - search
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.arithmatex
+  - pymdownx.tilde
+  - pymdownx.emoji
+  - pymdownx.tasklist
+  - pymdownx.smartsymbols
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-org/backstage-ui-lib-source-repo 

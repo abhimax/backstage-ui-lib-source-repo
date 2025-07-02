@@ -6,7 +6,8 @@ metadata:
   annotations:
     github.com/project-slug: your-org/backstage-ui-lib-source-repo
     backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-generator: local
 spec:
   type: library
   owner: your-team
-  lifecycle: experimental 
+  lifecycle: experimental
