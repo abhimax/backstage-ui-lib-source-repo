@@ -5,6 +5,7 @@ metadata:
   description: Sample UI library to be accessed from Backstage
   annotations:
     github.com/project-slug: your-org/backstage-ui-lib-source-repo
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: library
   owner: your-team

@@ -1,0 +1,7 @@
+site_name: 'Backstage UI Library Source Repo'
+site_description: 'Documentation for the Backstage UI Library Source Repo, rendered with Backstage TechDocs.'
+docs_dir: docs
+nav:
+  - Home: README.md
+  - Getting Started: getting-started.md
+  - Usage: usage.md 

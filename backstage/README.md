@@ -6,4 +6,10 @@ This directory is a placeholder for Backstage-related configuration or documenta
 
 1. Register this project in your Backstage instance by adding the `catalog-info.yaml` file to your Backstage catalog.
 2. Update the `owner` and `github.com/project-slug` fields in `catalog-info.yaml` as appropriate for your organization.
-3. Use this project as a component or library in your Backstage ecosystem. 
+3. Use this project as a component or library in your Backstage ecosystem.
+
+## Documentation in Backstage
+
+This project includes sample documentation files in the `docs/` directory. You can use the Backstage TechDocs plugin to render these markdown files as documentation in your Backstage instance.
+
+See the `docs/README.md` for more details. 
